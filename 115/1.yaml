@@ -1,7 +1,7 @@
 ####################################
 # 客户端：Clash
-# 创建时间：2023-11-05 18:43:24
-# 节点数量：50
+# 创建时间：2023-11-05 20:29:50
+# 节点数量：51
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -83,62 +83,64 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"===以下均解锁流媒体===","type":"vmess","server":"127.0.0.1","port":80,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"CN-上海游戏节点","type":"vmess","server":"124.220.57.75","port":80,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"CN-四川BGP","type":"vmess","server":"sc.xn--wlqw1swrj04ju56d.com","port":80,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"CN-河南移动 ipv6","type":"vmess","server":"hnv6.xn--wlqw1swrj04ju56d.com","port":80,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"CN-镇江BGP","type":"vmess","server":"zj.xn--wlqw1swrj04ju56d.com","port":80,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"CN-宿迁BGP","type":"vmess","server":"sq.xn--wlqw1swrj04ju56d.com","port":80,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"CN-四川BGP(443端口)","type":"vmess","server":"sc.xn--wlqw1swrj04ju56d.com","port":443,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"CN-河南移动(443端口)ipv6","type":"vmess","server":"hnv6.xn--wlqw1swrj04ju56d.com","port":443,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"CN-镇江BGP(443端口)","type":"vmess","server":"zj.xn--wlqw1swrj04ju56d.com","port":443,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"CN-宿迁BGP(443端口)","type":"vmess","server":"sq.xn--wlqw1swrj04ju56d.com","port":443,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"CN-安徽 500m","type":"vmess","server":"ah.xn--wlqw1swrj04ju56d.com","port":8888,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"CN-广州1G","type":"vmess","server":"gz.xn--wlqw1swrj04ju56d.com","port":8888,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"CN-上海1G","type":"vmess","server":"wifi.jeidian.xyz","port":8888,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"CN-河南移动","type":"vmess","server":"hn.xn--wlqw1swrj04ju56d.com","port":8888,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"TW 1G 家宽/Netflix","type":"vmess","server":"tw1g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"TW 1G(443端口) 家宽/Netflix","type":"vmess","server":"tw1g.xn--vhq70hxyat50h6wk.com","port":443,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"HK 5G","type":"vmess","server":"hk5g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"HK 5G(443端口)","type":"vmess","server":"hk5g.xn--vhq70hxyat50h6wk.com","port":443,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"SG 5G","type":"vmess","server":"sg5g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"JP 5G","type":"vmess","server":"jp5g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"Kr 5G","type":"vmess","server":"kr5g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"GER Frankfurt 5G","type":"vmess","server":"ger.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"广日隧道-春川 5x","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":32460,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"广港隧道-香港 A 5x","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":27506,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"广港隧道-香港 B 5x","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":21949,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"广港隧道-台湾 5x","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":15757,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"广新隧道-新加坡 5x","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":19446,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"广日隧道-日本 5x","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":19700,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"广日隧道-首尔 5x","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":40396,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"辽日隧道-墨西哥 5x","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":43731,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"辽德隧道-法兰克福 5x","type":"vmess","server":"sd2.xn--wlqw1swrj04ju56d.com","port":32036,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"辽德隧道-迪拜 5x","type":"vmess","server":"sd2.xn--wlqw1swrj04ju56d.com","port":37442,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"辽德隧道-英国 5x","type":"vmess","server":"sd2.xn--wlqw1swrj04ju56d.com","port":10501,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"辽德隧道-乌克兰 5x","type":"vmess","server":"sd2.xn--wlqw1swrj04ju56d.com","port":16389,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"辽日隧道-美国阿什本 5x","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":15261,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"辽日隧道-美国凤凰城 5x","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":16569,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"Singapore4G/Netflix","type":"vmess","server":"sg4g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"JP500m/Netflix","type":"vmess","server":"jp500m.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"JP 4G/Netflix","type":"vmess","server":"jp4g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"UK 4G/Netflix","type":"vmess","server":"uk4g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"US Phoenix 4G/Netflix","type":"vmess","server":"us4g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"US Ashburn 4G/Netflix","type":"vmess","server":"us4g2.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"Dubai 4G/Netflix","type":"vmess","server":"dubai4g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"Korea 500m/Netflix","type":"vmess","server":"kr500m.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"Korea Chunchuan 4G/Netflix","type":"vmess","server":"kr4g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"Korea Seoul  4G/Netflix","type":"vmess","server":"kr4g2.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"Mexico 4G/Netflix","type":"vmess","server":"me.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"===--以下为校园网区--===","type":"vmess","server":"127.1.1","port":80,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"校园网53","type":"vmess","server":"wifi.jeidian.xyz","port":53,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"校园网69","type":"vmess","server":"wifi.jeidian.xyz","port":69,"cipher":"auto","uuid":"9ad1b2df-98f8-407a-9a49-a157aa5e63c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"defaultName","type":"http","server":"muguacloud.bond/api/v1/client/subscribe?token=17c5a88635efebada5bfa007cfac997e","port":null}
+  - {"name":"===以下均解锁流媒体===","type":"vmess","server":"127.0.0.1","port":80,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"CN-上海游戏节点","type":"vmess","server":"124.220.57.75","port":80,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"CN-四川BGP","type":"vmess","server":"sc.xn--wlqw1swrj04ju56d.com","port":80,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"CN-河南移动 ipv6","type":"vmess","server":"hnv6.xn--wlqw1swrj04ju56d.com","port":80,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"CN-镇江BGP","type":"vmess","server":"zj.xn--wlqw1swrj04ju56d.com","port":80,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"CN-宿迁BGP","type":"vmess","server":"sq.xn--wlqw1swrj04ju56d.com","port":80,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"CN-四川BGP(443端口)","type":"vmess","server":"sc.xn--wlqw1swrj04ju56d.com","port":443,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"CN-河南移动(443端口)ipv6","type":"vmess","server":"hnv6.xn--wlqw1swrj04ju56d.com","port":443,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"CN-镇江BGP(443端口)","type":"vmess","server":"zj.xn--wlqw1swrj04ju56d.com","port":443,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"CN-宿迁BGP(443端口)","type":"vmess","server":"sq.xn--wlqw1swrj04ju56d.com","port":443,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"CN-安徽 500m","type":"vmess","server":"ah.xn--wlqw1swrj04ju56d.com","port":8888,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"CN-广州1G","type":"vmess","server":"gz.xn--wlqw1swrj04ju56d.com","port":8888,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"CN-上海1G","type":"vmess","server":"wifi.jeidian.xyz","port":8888,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"CN-河南移动","type":"vmess","server":"hn.xn--wlqw1swrj04ju56d.com","port":8888,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"TW 1G 家宽/Netflix","type":"vmess","server":"tw1g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"TW 1G(443端口) 家宽/Netflix","type":"vmess","server":"tw1g.xn--vhq70hxyat50h6wk.com","port":443,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"HK 5G","type":"vmess","server":"hk5g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"HK 5G(443端口)","type":"vmess","server":"hk5g.xn--vhq70hxyat50h6wk.com","port":443,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"SG 5G","type":"vmess","server":"sg5g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"JP 5G","type":"vmess","server":"jp5g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"Kr 5G","type":"vmess","server":"kr5g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"GER Frankfurt 5G","type":"vmess","server":"ger.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"广日隧道-春川 5x","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":32460,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"广港隧道-香港 A 5x","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":27506,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"广港隧道-香港 B 5x","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":21949,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"广港隧道-台湾 5x","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":15757,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"广新隧道-新加坡 5x","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":19446,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"广日隧道-日本 5x","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":19700,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"广日隧道-首尔 5x","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":40396,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"辽日隧道-墨西哥 5x","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":43731,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"辽德隧道-法兰克福 5x","type":"vmess","server":"sd2.xn--wlqw1swrj04ju56d.com","port":32036,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"辽德隧道-迪拜 5x","type":"vmess","server":"sd2.xn--wlqw1swrj04ju56d.com","port":37442,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"辽德隧道-英国 5x","type":"vmess","server":"sd2.xn--wlqw1swrj04ju56d.com","port":10501,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"辽德隧道-乌克兰 5x","type":"vmess","server":"sd2.xn--wlqw1swrj04ju56d.com","port":16389,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"辽日隧道-美国阿什本 5x","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":15261,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"辽日隧道-美国凤凰城 5x","type":"vmess","server":"sd1.xn--wlqw1swrj04ju56d.com","port":16569,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"Singapore4G/Netflix","type":"vmess","server":"sg4g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"JP500m/Netflix","type":"vmess","server":"jp500m.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"JP 4G/Netflix","type":"vmess","server":"jp4g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"UK 4G/Netflix","type":"vmess","server":"uk4g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"US Phoenix 4G/Netflix","type":"vmess","server":"us4g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"US Ashburn 4G/Netflix","type":"vmess","server":"us4g2.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"Dubai 4G/Netflix","type":"vmess","server":"dubai4g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"Korea 500m/Netflix","type":"vmess","server":"kr500m.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"Korea Chunchuan 4G/Netflix","type":"vmess","server":"kr4g.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"Korea Seoul  4G/Netflix","type":"vmess","server":"kr4g2.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"Mexico 4G/Netflix","type":"vmess","server":"me.xn--vhq70hxyat50h6wk.com","port":80,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"===--以下为校园网区--===","type":"vmess","server":"127.1.1","port":80,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"校园网53","type":"vmess","server":"wifi.jeidian.xyz","port":53,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"校园网69","type":"vmess","server":"wifi.jeidian.xyz","port":69,"cipher":"auto","uuid":"a6f73f7b-6839-48c6-b964-afd80832f1d2","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - defaultName
       - '===以下均解锁流媒体==='
       - CN-上海游戏节点
       - CN-四川BGP
@@ -195,6 +197,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - defaultName
       - '===以下均解锁流媒体==='
       - CN-上海游戏节点
       - CN-四川BGP
@@ -251,6 +254,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - defaultName
       - '===以下均解锁流媒体==='
       - CN-上海游戏节点
       - CN-四川BGP
@@ -306,6 +310,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - defaultName
       - '===以下均解锁流媒体==='
       - CN-上海游戏节点
       - CN-四川BGP
@@ -361,6 +366,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - defaultName
       - '===以下均解锁流媒体==='
       - CN-上海游戏节点
       - CN-四川BGP
@@ -416,6 +422,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - defaultName
       - '===以下均解锁流媒体==='
       - CN-上海游戏节点
       - CN-四川BGP
@@ -488,6 +495,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - defaultName
       - '===以下均解锁流媒体==='
       - CN-上海游戏节点
       - CN-四川BGP
